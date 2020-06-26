@@ -76,7 +76,7 @@ while i<3:
 		"address" : responseJSON['merchantLocatorServiceResponse']['response'][0]['responseValues']['merchantStreetAddress'],
 		"cuisine" : random.choice(cuisines),
 		"expense" : random.choice(expenses),
-		"offer" : random.choice(offers),
+		"offers" : random.choice(offers),
 		"waitTime" : str(random.randrange(1,30))
 	}
 	# print(SynthesizedResponse)
