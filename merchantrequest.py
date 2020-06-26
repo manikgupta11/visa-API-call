@@ -32,10 +32,12 @@ import requests
 import json
 import time
 import random
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
 finalResponse={"restaurants":[]}
 a=time.time()
 i=1
-while i<6:
+while i<4:
 
 	payload = {
 		"header": {   
@@ -83,7 +85,7 @@ while i<6:
 	i+=1
 b=time.time()
 
-print(finalResponse)
+pp.pprint(finalResponse)
 f=open("op.json","w")
 json.dump(finalResponse,f,indent=4)
 f.close()
