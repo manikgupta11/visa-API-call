@@ -1,0 +1,20 @@
+{
+    "restaurants": [
+        {
+            "name": "MONTECRISTO REST",
+            "address": "6286 3RD ST",
+            "cuisine": "ITALIAN",
+            "expense": "HIGH",
+            "offer": "10% off on visa card payments",
+            "waitTime": "20"
+        },
+        {
+            "name": "LAUGHING MONK BREWING",
+            "address": "1439 EGBERT AVE",
+            "cuisine": "CONTINENTAL",
+            "expense": "AVERAGE",
+            "offer": "20% off on buffet",
+            "waitTime": "3"
+        }
+    ]
+}
